@@ -5,13 +5,14 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version - '2.6.7'
 
 * System dependencies
 
 * Configuration
 
 * Database creation
+'mongoid', '~> 6.1.0'
 
 * Database initialization
 
@@ -20,5 +21,7 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
+sudo service mongod start
+rails s
 
 * ...
